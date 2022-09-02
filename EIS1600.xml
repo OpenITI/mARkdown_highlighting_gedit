@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ This file is part of EIS1600 project files
+ by Maxim Romanov, UHH
+
+-->
+<style-scheme id="eis1600" _name="EIS1600 Color Scheme" version="1.0">
+  <author>EIS1600 Team</author>
+  <_description>EIS1600 Color Scheme</_description>
+
+  <!-- The scheme tries to reproduce the colors of the 
+       EditPad Pro original Scheme for OpenITI mARkdown
+   -->
+
+  <!-- Solarized Palette -->
+
+  <color name="textColor" value="#333333"/>
+  <color name="mainTextBG" value="#fce7b0"/>
+  <color name="mainTextBGorig" value="#feffac"/>
+
+
+
+  <color name="yellow"  value="#B58900"/>
+  <color name="orange"  value="#CB4B16"/>
+  <color name="red"     value="#DC322F"/>
+  <color name="magenta" value="#D33682"/>
+  <color name="violet"  value="#6C71C4"/>
+  <color name="blue"    value="#268BD2"/>
+  <color name="cyan"    value="#2AA198"/>
+  <color name="green"   value="#859900"/>
+  <color name="green9"  value="#167102"/>
+  <color name="white"   value="#FFFFFF"/>
+  <color name="black"   value="#000000"/>
+
+
+  <color name="pale"   value="#E6E6E6"/>  
+
+
+  <!-- Global Settings -->
+  <style name="text"                          foreground="textColor" background="mainTextBG"/>
+
+  <!-- EIS1600 HEADERS -->
+  <style name="eis1600:header1"               foreground="white" background="red"     bold="true"/>
+  <style name="eis1600:header2"               foreground="white" background="orange"  bold="true"/>
+  <style name="eis1600:header3"               foreground="white" background="yellow"  bold="true"/>
+  <style name="eis1600:header4"               foreground="white" background="green"   bold="true"/>
+  <style name="eis1600:header5"               foreground="white" background="blue"    bold="true"/>
+  <style name="eis1600:header6"               foreground="white" background="violet"  bold="true"/>
+  <style name="eis1600:header7"               foreground="white" background="magenta" bold="true"/>
+  <style name="eis1600:header8"               foreground="white" background="magenta" bold="true"/>
+  <style name="eis1600:header9"               foreground="white" background="magenta" bold="true"/>
+
+  <!-- MIU Headers -->
+  <style name="eis1600:bioMan"                foreground="white" background="green9" bold="true"/>
+  <style name="eis1600:bioWom"                foreground="green" background="white" bold="true"/>
+  <style name="eis1600:bioRep"                foreground="green" background="white" bold="true"/>
+  <style name="eis1600:bioLis"                foreground="green" background="white" bold="true"/>
+
+  <!-- Named Entities -->
+
+  <!-- Named Entities: AUTO --> 
+  <style name="eis1600:nerAuto"               foreground="white" background="black" bold="true"/> 
+
+  <!-- Named Entities: MANUAL -->
+  <style name="eis1600:toponymTag"            foreground="textColor" background="#ff75c2" bold="true"/>
+  <style name="eis1600:personTag"             foreground="textColor" background="#cc77ff" bold="true"/>
+  <style name="eis1600:yearTag"               foreground="white" background="green9" bold="true"/>
+
+  <!-- Morphological Tags -->
+  <style name="eis1600:morphoTag"             foreground="orange" background="mainTextBG" bold="true"/>
+
+  <!--In-Text Elements -->
+  <style name="eis1600:inTextElement"         foreground="pale" background="violet" bold="true"/>
+
+  <!-- EIS1600 TECH ELEMENTS -->
+  <style name="eis1600:techElements"          foreground="pale" background="mainTextBG" bold="false"/>
+
+
+</style-scheme>
